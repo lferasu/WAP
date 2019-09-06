@@ -1,0 +1,59 @@
+#navigation
+{
+    display: flex;
+    background-color:cadetblue;
+    border: 1px solid azure;
+    vertical-align: middle;
+    height: 10vw;
+    align-items: center;
+}
+
+#Registration
+{
+    vertical-align: middle;
+    font-size: 5vh;
+    font-weight: bolder;
+    color: white;
+    padding: 2vw;
+    justify-content: center;
+
+}
+
+#message
+{
+   
+    text-decoration: underline;
+   
+}
+
+body{
+    width: 90vw;
+    margin: auto;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#lunch, #payment-detail
+{
+    text-decoration: underline;
+}
+
+#bottom
+{
+    width:20vw;
+    margin: auto;
+}
+
+#left
+{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+}
+
+input
+{
+   align-self: auto;
+}
