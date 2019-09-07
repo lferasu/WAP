@@ -4,8 +4,9 @@
     background-color:cadetblue;
     border: 1px solid azure;
     vertical-align: middle;
-    height: 10vw;
+    height: 5vw;
     align-items: center;
+    
 }
 
 #Registration
@@ -23,37 +24,126 @@
 {
    
     text-decoration: underline;
+    width: 74vw;
+    margin: auto;
+    margin-bottom: 1vw;
    
 }
 
 body{
-    width: 90vw;
-    margin: auto;
+    border: 2px solid maroon;
 }
 
-#container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+@media (min-width:800px)
+{
+    #container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: stretch;
+        width:80%;
+        margin: auto;
+        margin-bottom: 2vw;
+        margin-top: 1vw;
+    }
 }
+
 
 #lunch, #payment-detail
 {
     text-decoration: underline;
 }
 
-#bottom
-{
-    width:20vw;
+
+
+#container > div{
+    width: 90%;
     margin: auto;
 }
 
-#left
-{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
+
+
+#left{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-row-gap: 2vw;
 }
 
-input
-{
-   align-self: auto;
+#right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 2vw; 
 }
+
+label,input,select,textarea{
+    display: block;
+}
+
+#lunch{
+    grid-column: 1/3;
+}
+
+
+#payment-detail
+{
+    grid-column: 1/3;
+}
+
+input[type="checkbos"]
+{
+    display: block;
+}
+
+#payment
+{
+   display: grid;
+   grid-column: 1/3;
+   grid-template-columns: 1fr 1fr;
+}
+
+#payment-mode-label
+{
+    grid-row: 1/4;
+}
+
+#bottom-container
+{
+   
+    background-color:cadetblue;
+    border: 1px solid azure;
+    vertical-align: middle;
+    height: 5vw;
+    align-items: center;
+}
+
+#bottom
+{
+    width:25vw;
+    margin: auto;
+    align-items: center;
+}
+
+input[type="submit"], input[type="reset"]
+{
+    padding:0.3em 1.2em;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    width: 10vw;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    font-size: 1vw;
+    background-color: maroon;
+    color:#FFFFFF;
+    text-align:center;
+    height: 3vw;
+    margin-top:1vw;
+}
+
+
+
+.inline
+{
+    display: inline;
+}
+
+
+
