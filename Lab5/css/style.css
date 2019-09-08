@@ -1,0 +1,69 @@
+#container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+}
+
+.item
+{
+    border: 1px solid maroon;
+}
+#q2,#q3,#q4,#q6
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 1vw;
+    grid-column-gap: 1vw;
+}
+
+#q7,#q8,#q5,#q9a
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 1vw;
+    grid-column-gap: 1vw;  
+}
+#number2-1, #number2-2, #number3-1, #number3-2, #number3-3,#q4-char,#String6-1,#String6-2,#q5-number,#q9a-number
+{
+    grid-column: 2/4;
+}
+#q9a-5result
+{
+ grid-column: 2/5;
+}
+#q-2Button,#q-3Button,#q-4Button,#multiply,#functions
+{
+    grid-column: 2/3;
+}
+#q-6Button
+{
+    grid-column: 1/4;
+}
+#q7-string, #q8-string,#multiplyby10
+{
+    grid-column: 2/4;
+}
+#q7-strings, #q8-strings, #q5-numbers,#q9a-numbers
+{
+    grid-column: 2/5;
+}
+
+#result-2
+{
+    grid-column: 3/4;
+}
+
+#q-7Button
+{
+    grid-column: 2/4;
+}
+
+#body
+{
+    width: 90vw;
+}
+
+
+
